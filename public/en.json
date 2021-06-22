@@ -1,0 +1,263 @@
+{
+  "helloMessage": "Привет!",
+  "menu": {
+    "searchPlaceholder": "Поиск по меню",
+    "resultsNotFound": "По вашему запросу ничего не найдено."
+  },
+  "copyText": "Скопировать",
+  "files": {
+    "fileUploader": {
+      "dropOrClick": "Drag files here or click",
+      "dropFilesPlaceholder": "Drop files here"
+    },
+    "imageEditor": {
+      "title": "Редактор изображений",
+      "flipHorizontal": "Отразить по горизонтали",
+      "flipVertical": "Отразить по вертикали",
+      "rotate90DegCounterClockWise": "Повернуть на 90° против часовой стрелки",
+      "reset": "Сбросить",
+      "rotate90DegClockWise": "Повернуть на 90° по часовой стрелке"
+    }
+  },
+  "toolsTab": {
+    "dataItem": "Данные",
+    "analyticsItem": "Аналитика",
+    "compareItem": "Сравнение записей",
+    "simpleFilter": {
+      "base": "Все подразделения",
+      "org": "Все организации"
+    }
+  },
+  "dataTab": {
+    "viewPlaceholder": "Представление",
+    "recordIdNotSelected": "Не указан идентификатор записи",
+    "lotOfFields": "Невозможно добавить значение нескольких колонок в фильтр",
+    "incorrectDataTypeForMultiRows": "Неверный тип колонки для добавления нескольких строк в фильтр",
+    "toggleExtendedFields": "Служебные поля",
+    "updateGridData": "Обновить",
+    "showFilter": "Фильтр",
+    "addFilterField": "Добавить значение ячейки в фильтр",
+    "cleanFilter": "Очистить фильтр",
+    "columnCount": "Кол-во по колонке",
+    "columnSum": "Сумма по колонке",
+    "getQueryInfo": "Показать SQL код запроса",
+    "getQueryLink": "Получить ссылку на выборку",
+    "getObjectLink": "Получить ссылку на объект"
+  },
+  "aggregateWindow": {
+    "countOfColumn": "Количество по колонке",
+    "sumOfColumn": "Сумма по колонке",
+    "selectColumnError": "Выберите колонку!",
+    "invalidSumTypeError": "Тип колонки не поддерживает сумирование!"
+  },
+  "clipboard": {
+    "title": "Копировать",
+    "urlCopied": "Ссылка скопирована в буфер обмена"
+  },
+  "analytics": {
+    "settingsTitle": "Настройки",
+    "resultTitle": "Результат",
+    "groupByFieldHeader": "Поля группировки",
+    "groupByFieldModeHeader": "Режим группировки",
+    "fieldHeader": "Поля представления",
+    "columnsHeader": "Вычисляемые поля",
+    "columnsAggregateHeader": "Агрегатная функция",
+    "fieldNameHeader": "Название",
+    "groupingFieldNameHeader": "Режим группировки",
+    "groupingModes": {
+      "notSelect": "Полное совпадение",
+      "trunc": {
+        "week": "Округлять до недель",
+        "month": "Округлять до месяца"
+      },
+      "part": {
+        "dow": "По дням недели",
+        "day": "По дням месяца",
+        "month": "По месяцам",
+        "year": "По годам"
+      },
+      "numpart": {
+        "1": "Шаг по 1",
+        "5": "Шаг по 5",
+        "10": "Шаг по 10"
+      }
+    },
+    "viewNamePalceholerLabel": "Представление",
+    "emptySelectedColumnsInfoMessage": "Не выбраны колонки для группировки",
+    "getData": "Получить данные"
+  },
+  "closeMask": {
+    "cancelLabel": "Отменить",
+    "loadingLabel": "Загрузка"
+  },
+  "notification": {
+    "closeActionLabel": "Закрыть",
+    "moreInfoLabel": "Подробнее"
+  },
+  "gridFilter": {
+    "dialog": {
+      "title": "Фильтр",
+      "closeButton": "Отмена",
+      "clearButton": "Очистить",
+      "submitButton": "ОК"
+    },
+    "filterForm": {
+      "boolean": {
+        "yes": "Да",
+        "no": "Нет"
+      },
+      "date": {
+        "showTime": "Показывать время",
+        "start": "Начало",
+        "end": "Конец"
+      },
+      "condition": "Условие",
+      "value": "Значение",
+      "includeValue": "Включительно",
+      "title": "Установить фильтр для поля",
+      "conditions": {
+        "blike": "Начинается с",
+        "elike": "Заканчивается на",
+        "like": "Содержит",
+        "nlike": "Не содержит",
+        "nblike": "Не начинается с",
+        "nelike": "Не заканчивается на",
+        "eq": "Равно",
+        "neq": "Не равно",
+        "eqnull": "Равно пустому",
+        "neqnull": "Не равно пустому",
+        "in": "Из перечня",
+        "nin": "Вне перечня",
+        "lt": "Меньше",
+        "gt": "Больше",
+        "interval": "Интервал"
+      }
+    },
+    "conditionNameLabel": "Наименование поля",
+    "conditionLabel": "Условие",
+    "unavailableForm": "Для типа данных выбранного поля еще нет формы!",
+    "conditionalLabels": {
+      "eq": "= {0}",
+      "neq": "!= {0}",
+      "lt": "< {0}",
+      "lte": "<= {0}",
+      "gt": "> {0}",
+      "gte": ">= {0}",
+      "blike": "Начинается с {0}",
+      "nblike": "Не начинается с {0}",
+      "elike": "Заканчивается на {0}",
+      "like": "Содержит {0}",
+      "nlike": "Не содержит {0}",
+      "nelike": "Не заканчивается на {0}",
+      "eqnull": "Равно пустому {0}",
+      "neqnull": "Не равно пустому {0}",
+      "in": "Из перечня {0}",
+      "nin": "Вне перечня {0}",
+      "interval": "Интервал {0}"
+    }
+  },
+  "contextMenu": {
+    "gridAutoReload": "Автообновление"
+  },
+  "customView": {
+    "dialog": {
+      "title": "Произошла ошибка при открытии собственного представления",
+      "errorText": "Невозможно открыть выбранное представление.",
+      "fixExplanation": "— попытаемся самостоятельно исправить собственное представление, убрав отсутствующие в исходном представлении колонки.",
+      "deleteExplanation": "— собственное представление будет безвозвратно удалено из базы. Вам будет необходимо создать новое.",
+      "closeButton": "Закрыть",
+      "deleteButton": "Удалить",
+      "fixButton": "Исправить"
+    }
+  },
+  "tabsHistory": {
+    "incorrectVersion": "У Хранилища вкладок неактуальная версия. Оно было очищено",
+    "openButton": {
+      "text": "Восстановление вкладок"
+    },
+    "dialog": {
+      "title": "Восстановление вкладок",
+      "buttons": {
+        "restoreButton": "Восстановить выбранные",
+        "removeButton": "Удалить выбранные",
+        "restoreAllButton": "Восстановить все"
+      },
+      "tableHeaders": {
+        "tabName": "Наименование вкладки",
+        "tabEntities": "Сущности во вкладке"
+      }
+    },
+    "popover": {
+      "title": "Восстановить вкладки?",
+      "subtitle": "У вас есть сохраненные вкладки",
+      "buttons": {
+        "restoreAllButton": "Восстановить все",
+        "selectTabs": "Выбрать вкладки для восстановления"
+      }
+    }
+  },
+  "draggableTable": {
+    "noData": "Нет данных"
+  },
+  "search": {
+    "modalTitle": "Результаты поиска"
+  },
+  "agGrid": {
+    "noCellId": "Отсутствует идентификатор ячейки"
+  },
+  "validator": {
+    "required": "Обязательное поле",
+    "min": "Значение должно быть больше или равно {0}",
+    "max": "Значение должно быть меньше или равно {0}",
+    "minLength": "Длина введенного текста должна быть больше или равна {0}",
+    "maxLength": "Длина введенного текста должна быть меньше или равна {0}"
+  },
+  "form": {
+    "states": {
+      "stateSatisfactory": "Norm",
+      "stateGood": "Good",
+      "stateExcellent": "Excellent",
+      "stateCrash": "Crash"
+    },
+    "status": {
+      "works": "Работает",
+      "dismissed": "Уволен,",
+      "blocked": "Заблокирован"
+    },
+    "save": "Сохранить",
+    "change": "Изменить",
+    "taxiAuto": {
+      "division": "Подразделение",
+      "status": "Статус авто",
+      "statusDate": "Дата статуса",
+      "category": "Категория",
+      "mark": "Марка",
+      "releaseYear": "Год выпуска",
+      "state": "Состояние",
+      "color": "Цвет",
+      "GAINumberType": "Тип номера",
+      "GAINumber": "Гос. номер",
+      "shortGAINumber": "Короткий",
+      "regionCode": "Код региона",
+      "manufactureCountry": "Страна производителя",
+      "passengerPlacesNumber": "Число пассажирских мест",
+      "capacityT": "Грузоподъемность (т)",
+      "lengthM": "Длина (м)",
+      "widthM": "Ширина (м)",
+      "heightM": "Высота (м)",
+      "STSType": "Тип СТС",
+      "STSNumber": "№ СТС",
+      "additionalInfoForDispatcher": "Доп. инфо диспетчеру",
+      "images": "Изображения",
+      "permissionNumber": "Номер разрешения",
+      "juridicalEntity": "Юридическое лицо",
+      "enter": "Введите",
+      "taxiCompanyId": "ID таксопарка",
+      "additionalInfo": "Дополнительная информация",
+      "officeCheckDate": "Дата осмотра в офисе",
+      "licenseNumber": "Номер лицензии",
+      "additionalInfo": "Дополнительная информация",
+      "dateCheckOffice": "Дата осмотра в офисе"
+    }
+  }
+}
